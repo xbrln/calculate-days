@@ -1,0 +1,26 @@
+{
+  "name": "j/calculate-days",
+  "description": "calculate days",
+  "type": "project",
+  "require": {
+    "nesbot/carbon": "^2.35",
+    "symfony/http-foundation": "^5.1"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.16",
+    "object-calisthenics/phpcs-calisthenics-rules": "^3.9",
+    "symplify/easy-coding-standard": "^8.2",
+    "phpunit/phpunit": "^9",
+    "phpstan/phpstan": "^0.12.37"
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  }
+}

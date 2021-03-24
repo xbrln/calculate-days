@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  php:
+    container_name: calculate_days-php
+    build: .
+    volumes:
+      - .:/var/www/html
+    command: php -S 0.0.0.0:80 -t public
+    ports:
+      - 8090:80
